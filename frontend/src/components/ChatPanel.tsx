@@ -264,8 +264,6 @@ export default function ChatPanel({ sessionId, onTicketCreated }: ChatPanelProps
           <ChevronDown size={16} />
         </button>
       )}
-
-      //
       {/* Input area */}
       <div className="px-4 py-3 border-t border-gray-100 bg-white">
         <div className="flex items-end gap-2 bg-gray-50 border border-gray-200 rounded-2xl px-3 py-2 focus-within:border-blue-400 focus-within:ring-2 focus-within:ring-blue-100 transition-all">

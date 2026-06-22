@@ -71,23 +71,6 @@ export default function App() {
             </div>
           </div>
 
-          {/* POC Badges */}
-          <div className="hidden md:flex items-center gap-1.5 flex-1 overflow-hidden">
-            {[
-              "POC 1: Intent Detection",
-              "POC 2: Guided Ticket Creation",
-              "POC 3: AI Triage & Routing",
-            ].map((poc, i) => (
-              <span
-                key={i}
-                className="inline-flex items-center gap-1 text-xs bg-gray-100 text-gray-600 border border-gray-200 rounded-md px-2 py-0.5 font-medium flex-shrink-0"
-              >
-                <span className="w-1.5 h-1.5 rounded-full bg-green-500" />
-                {poc}
-              </span>
-            ))}
-          </div>
-
           {/* Nav tabs */}
           <nav className="hidden md:flex items-center gap-1 ml-auto">
             <button
